@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BookList </title>
+        <link rel="stylesheet" href="bookList.css">
+    </head>
+    <body>
+        <div id="main">
+
+            <div class="head">
+                <h1>My<span id="bk">Book</span>List</h1>
+            </div>
+
+            <div class="mid">
+            <form id="bookForm">
+                <p id="txt">Title</p>
+                <input type="text"  class="box" id="title">
+                <p id="txt">Author</p>
+                <input type="text" class="box" id="author">
+                <p id="txt">ISBN#</p>
+                <input type="text" class="box" id="isbn">
+                <input type="submit" value="Add Book" id="add">
+            </form>
+            </div>
+            <hr>
+
+            <div class="list">
+                <ul class="ulList">
+                    <li ><strong>Title</strong> </li>
+                    <li ><strong>Author</strong> </li>
+                    <li ><strong>ISBN#</strong> </li>
+                    <li></li>
+                </ul>
+            </div>
+            <hr>
+
+        </div>   
+    </body>
+    <script src="bookList.js"></script>
+</html>
